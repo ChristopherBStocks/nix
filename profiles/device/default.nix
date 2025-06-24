@@ -1,0 +1,4 @@
+{
+  server = import ./server.nix;
+}
+

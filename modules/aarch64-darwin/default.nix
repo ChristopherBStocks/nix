@@ -1,0 +1,3 @@
+{
+  preferences = import ./preferences.nix;
+}

@@ -1,0 +1,3 @@
+{
+  cleanup = import ./cleanup.nix;
+}

@@ -1,0 +1,4 @@
+{
+  standalone = import ./standalone.nix;
+}
+

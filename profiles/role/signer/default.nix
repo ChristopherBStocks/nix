@@ -1,0 +1,3 @@
+{
+  hydrogroup = import ./hydrogroup.nix;
+}
