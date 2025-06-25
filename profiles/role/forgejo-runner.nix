@@ -3,6 +3,6 @@
 {
   imports =
     [
-      myModules.nixos.services.forgejo-runner.nix
+      myModules.nixos.services.forgejo-runner
     ];
 }
