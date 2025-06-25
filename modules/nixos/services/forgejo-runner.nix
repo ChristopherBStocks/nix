@@ -12,7 +12,7 @@
       wantedBy   = [ "multi-user.target" ];
 
       serviceConfig = {
-        ExecStart   = "${pkgs.forgejo-runner}/bin/forgejo-runner daemon";
+        ExecStart   = "${pkgs.forgejo-runner}/bin/act_runner daemon";
         ExecReload  = "${pkgs.coreutils}/bin/kill -s HUP $MAINPID";
 
         User              = "cstocks";
