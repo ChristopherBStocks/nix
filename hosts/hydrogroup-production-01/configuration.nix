@@ -9,6 +9,7 @@
     profiles.device.server
     profiles.org.hydrogroup
     profiles.role.docker.standalone
+    profiles.role.forgejo-runner
   ];
   system.stateVersion = "25.05";
   networking.hostName = "hgprod01";
