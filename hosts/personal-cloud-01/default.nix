@@ -1,6 +1,6 @@
 {
   deployment = {
-    targetHost = "91.99.175.119";
+    targetHost = "91.99.170.218";
     targetUser = "pcolmena";
     targetPort = 2002;
     buildOnTarget = false;

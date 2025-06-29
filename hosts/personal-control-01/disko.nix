@@ -44,7 +44,7 @@
       efiInstallAsRemovable = true;
     };
     efi = {
-      efiSysMountPoint = "/boot/efi";
+      efiSysMountPoint = "/boot";
     };
   };
 }
