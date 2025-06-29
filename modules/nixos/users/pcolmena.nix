@@ -9,7 +9,7 @@
   };
   security.sudo.extraRules =
     [{
-      users = [ "colmena" ];
+      users = [ "pcolmena" ];
       commands = [{
         command = "ALL";
         options = [ "NOPASSWD" ];

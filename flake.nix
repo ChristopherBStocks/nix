@@ -52,6 +52,8 @@
         pmac01 = mkDarwinHost ./hosts/personal-mac-01/configuration.nix;
       };
       nixosConfigurations = {
+        pctl01 = mkLinuxHost ./hosts/personal-control-01/configuration.nix;
+        pcloud01 = mkLinuxHost ./hosts/personal-cloud-01/configuration.nix;
         tsu01 = mkLinuxHost ./hosts/tsukia-server-01/configuration.nix;
         tsu02 = mkLinuxHost ./hosts/tsukia-server-02/configuration.nix;
         hgctl01 = mkLinuxHost ./hosts/hydrogroup-control-01/configuration.nix;
@@ -64,6 +66,8 @@
           specialArgs = { inherit profiles myModules inputs; };
         };
         defaults.imports = [ inputs.disko.nixosModules.disko ];
+        pctl01 = ./hosts/personal-control-01;
+        pcloud01 = ./hosts/personal-cloud-01;
         hgctl01 = ./hosts/hydrogroup-control-01;
         hgprod01 = ./hosts/hydrogroup-production-01;
         hgstage01 = ./hosts/hydrogroup-staging-01;
